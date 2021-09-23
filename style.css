@@ -1,3 +1,57 @@
-body{
-    background-color: rgba(190, 240, 190, 0.836);
+body {background-image: radial-gradient(circle at 59.84% 77.04%, #ffffff 0, #f7ffff 16.67%, #e5fffb 33.33%, #cffbee 50%, #b9eee2 66.67%, #a6e3da 83.33%, #97dbd5 100%);}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #04AA6D;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+h1 {
+  text-shadow: 2px 1px;
+  text-align: center;
+  color: #057426e5;
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+img{
+  width: 80px 0; 
+  height: 90px;
+}
+
